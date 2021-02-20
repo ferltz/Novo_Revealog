@@ -10,9 +10,14 @@
 --------------------------------------------------------------*/
 
 body {
+  background-image: url(/img/preloader1.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60px;
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
+
 }
 
 a {
@@ -385,7 +390,22 @@ h6 {
 .nav-menu ul ul {
   margin: 0;
 }
+#preloader {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 11000;
+  position: fixed;
+  display: block
+}
 
+.preloader {
+
+}
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
